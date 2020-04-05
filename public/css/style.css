@@ -1,0 +1,173 @@
+h1,h2,h3,h4,h5,h6,p,button,label,a{
+    font-family: 'Helvetica Neue', sans-serif;
+}
+.div-contact{
+    margin-right: 20px;
+}
+.label-header-navbar{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.label-contact{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    margin-left: 10px;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: normal;
+    margin-right: 10px;
+}
+.header-first{
+    font-size: 30px;
+    font-weight: bold;
+}
+.subheader-first{
+    font-size: 30px;
+    font-weight: normal;
+    width: 85%;
+}
+.list-first{
+    font-size: 15.5px;
+    line-height: 27px;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+}
+li{
+    list-style-type: none;
+}
+.list-first li::before{
+    content: "\2713";
+    margin-right: 20px;
+    width: 30px;
+    background-color: #88B05A;
+    border-radius: 100px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color:white;
+
+}
+.img-vendor{
+    width: 50%;
+    margin-top: 24%;
+}
+.img-vendor-second{
+    width: 30%;
+}
+.card-packet{
+    border: 1px solid #DEDEDE;
+    padding-bottom: 20px;
+    height: 100%;
+    margin-top: 30px;
+}
+.label-vendor{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10%;
+}
+.label-vendor-second{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 6%;
+}
+.header-packet{
+    font-size: 30px;
+    font-weight: bold;
+}
+.subheader-packet{
+    font-size: 25px;
+    font-weight: normal;
+}
+.header-card-packet{
+    font-size: 20px;
+    font-weight: bold;
+}
+.big-label-card{
+    font-size: 40px;
+    font-weight: bold;
+}
+.medium-label-card{
+    font-weight: bold;
+}
+.btn-choose-packet{
+    border-radius: 100px;
+    border: 2px solid black;
+    padding:2px 10px 2px 10px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.btn-choose-packet-second{
+    border: none;
+    background: #007bff;
+    border-radius: 100px;
+    padding:5px 10px 5px 10px;
+    font-size: 14px;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+}
+.header-powerful{
+    font-size: 30px;
+    font-weight: normal;
+}
+.list-margin{
+    margin-left: 200px;
+}
+
+.divider-card{
+    background: red;
+    width: 40px;;
+}
+.header-list-packet{
+    font-size: 16px;
+    font-weight: bold;
+}
+.list-first-hosting{
+    margin-bottom: 10px;
+}
+.paragraph-laravel-packet{
+    width: 70%;
+    letter-spacing: 0.04em;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.paragraph-list-packet{
+    font-size: 14px;
+    width: 80%;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    /* letter-spacing: 0.06em;   */
+}
+.label-small{
+    font-size: 12px;
+}
+.label-share{
+    font-size: 14px;
+    font-weight: bold;
+}
+.header-share{
+    font-size: 30px;
+    color: white;
+    font-weight: lighter;
+}
+.btn-chat{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+@media only screen and (max-width:1024px){
+    .list-margin{
+        margin-left: 0px;
+    }
+}
